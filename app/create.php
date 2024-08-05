@@ -1,6 +1,6 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . '/app/CustomerFactory.php';
-$customer = CustomerFactory::getCustomer();
+require_once $_SERVER['DOCUMENT_ROOT'] . '/app/customerFactory.php';
+$customer = customerFactory::getCustomer();
 
 require_once $_SERVER['DOCUMENT_ROOT'] . '/app/model/SanitizerValidator.php';
 

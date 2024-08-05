@@ -1,8 +1,8 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . '/app/CustomerFactory.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/app/customerFactory.php';
 
 function renderUpdateModal($id, $updateModalOpen) {
-    $customer = CustomerFactory::getCustomer();
+    $customer = customerFactory::getCustomer();
     $customerData = [];
 
     if ($updateModalOpen && !empty($id)) {
