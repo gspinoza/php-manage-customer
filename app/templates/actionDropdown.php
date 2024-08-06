@@ -17,7 +17,7 @@ function renderActionDropdown($id, $updateModalOpen, $readModalOpen, $deleteModa
 </div>
 
 <?php if ($dropdownOpen): ?>
-    <div id="apple-imac-27-dropdown" class="z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600 absolute right-0 mt-2">
+    <div id="dropdown" class="z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600 absolute right-0 mt-2">
     <ul class="py-1 text-sm" aria-labelledby="<?php echo $id; ?>">
         <li>
             <form method="post" action="">
